@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Ajax";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    The content of a partial view will be rendered below using Ajax:
+</p>
+<div id="content" />
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#content').load('@Url.Action("Content","Home" )');  
+    });
+</script>
