@@ -138,6 +138,12 @@
   <ItemGroup>
     <Content Include="Views\Home\Ajax.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\IndexParam.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\IndexPartial.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

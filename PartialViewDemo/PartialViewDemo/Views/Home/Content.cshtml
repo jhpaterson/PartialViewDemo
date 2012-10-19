@@ -1,1 +1,8 @@
-﻿<h3 style="color:red">@ViewBag.Content</h3>
+﻿@model int
+
+<div style="background-color: #fcfcc2">
+<h3 style="color:red">Partial view</h3>
+<p>ViewBag.Content (from child action): @ViewBag.Content</p>
+<p>ViewBag.Message (from parent action): @ViewBag.Message</p>
+<p>Model (int): @Model</p>
+</div>
